@@ -125,7 +125,7 @@ scrb_map_ring_talk_dial_connect = scrb_map_ring_talk_dial_connect[['Process Name
                                                                    'Connected Click-To-Calls', 'Total Ring Time', 'Total Preview Time',
                                                                    'Avg. Preview Time','Customer Ringing Time' ]]
 
-scrb_map_ring_talk_dial_connect = scrb_map_ring_talk_dial_connect[scrb_map_ring_talk_dial_connect['Role'].isin(['Career Counsellor','Assistant Team Leader','Sales Interns'])]
+scrb_map_ring_talk_dial_connect = scrb_map_ring_talk_dial_connect[scrb_map_ring_talk_dial_connect['Role'].isin(['Sales Executive', 'Assistant Team Leader', 'Intern'])]
 
 export_path = '/Users/shivamkumar/Documents/Work/APR - Github/Scrubbed_APR.csv'
 
